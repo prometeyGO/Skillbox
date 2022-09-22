@@ -183,3 +183,124 @@ li::marker {
   background-color: #3f2aff;
   color: #f3f3f3;
 }
+
+/* modules.html */
+
+.header {
+  width: 1170px;
+  margin-bottom: 50px;
+  line-height: 69px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #3F2AFF;
+
+}
+
+.header2 {
+  margin: 0;
+  padding-bottom: 2px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3f2aff;
+}
+
+.contetn {
+  margin: 0 auto;
+  width: 1170px;
+  padding: 50px 0;
+}
+
+.main-img {
+ margin-bottom: 25px;
+}
+
+.lnk {
+  margin-bottom: 25px;
+  padding-left: 52px;
+  line-height: 23px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3F2AFF;
+  background-image: url(../img/Arrow\ 1.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.main-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.card {
+  margin-right: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 572px;
+  min-height: 505px;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: top;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(2n) {
+  margin-right: 0;
+}
+
+
+.card-img {
+  height: 180px;
+  background-size: cover;
+}
+
+.card-wrap {
+  padding: 25px;
+}
+
+.lst {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+  list-style-type: none;
+}
+
+.number {
+  bottom: 25px;
+  right: 25px;
+  position: absolute;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #eaeaea;
+  text-align: right;
+}
+
+.button {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.btn  {
+  padding: 24px 49px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3f2aff;
+  border: 2px solid #3f2aff;
+  background-color: transparent;
+}
